@@ -12,15 +12,21 @@ All group members were responsible for individual research on new libraries that
 ## Installations
 To install the Streamlit Marquee:
 pip install streamlit-marquee
+
 To install Streamlit Extras:
 pip install streamlit-extras
+
 To install Ganache:
 Visit https://trufflesuite.com/ganache/ and click on the download button in the middle of the screen.
+
 To install Web3.py:
 pip install web3==5.17
+
 To install bip44:
 pip install bip44
+
 To install ethereum tester:
 pip install eth-tester==0.5.0b3
+
 To install mnemonic:
 pip install mnemonic
