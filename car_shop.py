@@ -3,6 +3,10 @@ import streamlit as st
 from dataclasses import dataclass
 from typing import Any, List
 from web3 import Web3
+from streamlit_marquee import streamlit_marquee
+from streamlit_extras.stoggle import stoggle
+from streamlit_extras.let_it_rain import rain 
+
 
 w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
 
@@ -41,8 +45,37 @@ def get_cars():
 # Streamlit Code
 
 # Streamlit application headings
-st.markdown("# Car Rental!")
-st.markdown("## Rent a Car!")
+
+#st.markdown("# Car Rental!")
+streamlit_marquee(**{
+    # the marquee container background color
+    'background': "#5D00FF",
+    # the marquee text size
+    'fontSize': '48px',
+    # the marquee text color
+    "color": "#ffffff",
+    # the marquee text content
+    'content': 'Welcome to our Car Rental Shop! View our rental selection below!',
+    # the marquee container width
+    'width': '600px',
+    # the marquee container line height
+    'lineHeight': "35px",
+    # the marquee duration
+    'animationDuration': '10s',
+})
+#using the streamlit extras import, make any emoji rain on your app using the following code
+rain(
+    emoji="❄️",
+    font_size=54,
+    falling_speed=5,
+    animation_length="infinite",
+)
+#this uses an import with the streamlit extras import, it provides a 'clickable button' that when pressed, will show text underneath it
+stoggle(
+    "Click me!",
+    """Surprise! You Just Earned 8% off!""",
+)
+#st.markdown("## Rent a Car!")
 st.text(" \n")
 
 # Streamlit Sidebar Code - Start
@@ -117,7 +150,7 @@ if st.sidebar.button("Send Transaction"):
     st.sidebar.write(transaction_hash)
 
     # Celebrate your successful payment
-    st.balloons()
+    st.snow()
 
 # The function that starts the Streamlit application
 # Writes KryptoJobs2Go cars to the Streamlit page
