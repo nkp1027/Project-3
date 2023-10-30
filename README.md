@@ -9,7 +9,7 @@ Car Rental App
 ## Team Task Breakdown
 All group members were responsible for individual research on new libraries that could be used for the app. It was a collaborative effort to build the app with the correct and precise coding required for it to function the way we intended it to. 
 ## Testing the App
-In an effort to consolidate information and save time in teaching one to use this app successfully, we have uploaded a youtube video with step by step instructions. The link is provided below:
+In an effort to consolidate information and save time in teaching one to use this app successfully, we have uploaded a youtube video with step by step instructions. The link is provided here:
 https://youtu.be/k6qMIj-ZbHY
 
 ## Installations
