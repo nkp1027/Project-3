@@ -30,3 +30,6 @@ pip install eth-tester==0.5.0b3
 
 To install mnemonic:
 pip install mnemonic
+
+To install streamlit:
+pip install streamlit
