@@ -1,2 +1,2 @@
 # Project-3
-Project 3
+Our project goal is to create an online car rental business that offers a variety of vehicles that can be rented per hour at set prices of Ethereum. The majority of this will be created by a mix of Python and Streamlit while having connections to Ganache as well to show that the transactions are working. Ideally, a customer will visit the site, pick a car they would like to rent and select the number of hours they desire to rent it for. The price will automatically be calculated and displayed on the sidebar of the Streamlit app. Once this occurs, the customer can submit a transaction which will then prompt a confirmation and animation on the page.
